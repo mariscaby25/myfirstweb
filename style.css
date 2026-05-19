@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #fdf8f6; color: #333; }
+header { text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #ff9a8b, #ff6a88); color: white; }
+.logo { width: 250px; border-radius: 15px; margin-bottom: 15px; }
+h1 { font-size: 2.5rem; }
+section { padding: 40px 20px; max-width: 900px; margin: auto; text-align: center; }
+h2 { color: #d63384; margin-bottom: 15px; }
+ul { list-style: none; }
+.btn, button { padding: 12px 25px; background: #d63384; color: white; border: none; border-radius: 8px; cursor: pointer; margin-top: 15px; }
+.btn:hover, button:hover { background: #b52a6f; }
+.product-grid { display: flex; gap: 25px; justify-content: center; flex-wrap: wrap; padding: 40px 20px; }
+.card { background: white; padding: 15px; border-radius: 12px; width: 240px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; }
+.card img { width: 100%; height: 260px; object-fit: cover; border-radius: 10px; }
+.price { font-weight: bold; color: #d63384; font-size: 1.2rem; }
+.buy-page { display: flex; justify-content: center; align-items: center; height: 100vh; }
+#buy-container { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); text-align: center; }
+#message { margin-top: 20px; font-weight: bold; font-size: 1.2rem; }
